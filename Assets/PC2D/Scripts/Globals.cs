@@ -2,7 +2,7 @@
 
 namespace PC2D
 {
-    public class Input
+    public class InputButtonNames
     {
 
         public const string HORIZONTAL = "Horizontal";

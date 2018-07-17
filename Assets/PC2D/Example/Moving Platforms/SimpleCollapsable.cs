@@ -51,7 +51,7 @@ namespace PC2D
             }
         }
 
-        private void PlayerContact(PlatformerMotor2D player)
+        private void PlayerContact(PC2DMotor player)
         {
             _mpMotor.onPlatformerMotorContact -= PlayerContact;
             _state = State.Darken;

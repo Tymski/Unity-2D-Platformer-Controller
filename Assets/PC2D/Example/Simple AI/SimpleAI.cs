@@ -9,14 +9,14 @@ namespace  PC2D
         public float heightToFallFast;
         public float delayForWallJump;
 
-        private PlatformerMotor2D _motor;
+        private PC2DMotor _motor;
 
         public float movement { get; private set; }
 
         // Use this for initialization
         void Start()
         {
-            _motor = GetComponent<PlatformerMotor2D>();
+            _motor = GetComponent<PC2DMotor>();
             movement = -1;
 
             // Find objects generally pretty bad but this is a demo :)
@@ -40,7 +40,7 @@ namespace  PC2D
         {
             _motor.normalizedXMovement = movement;
 
-            if (_motor.motorState == PlatformerMotor2D.MotorState.OnGround)
+            if (_motor.motorState == PC2DMotor.MotorState.OnGround)
             {
                 _motor.fallFast = false;
                 Vector2 dir = Vector2.right;
@@ -62,12 +62,12 @@ namespace  PC2D
                 }
             }
 
-            if (_motor.motorState == PlatformerMotor2D.MotorState.WallSticking)
+            if (_motor.motorState == PC2DMotor.MotorState.WallSticking)
             {
                 StartCoroutine(DelayWallJump());
             }
 
-            if (_motor.motorState == PlatformerMotor2D.MotorState.Falling)
+            if (_motor.motorState == PC2DMotor.MotorState.Falling)
             {
                 RaycastHit2D hit = Physics2D.Raycast(
                     transform.position,

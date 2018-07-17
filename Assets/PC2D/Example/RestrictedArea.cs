@@ -20,12 +20,12 @@ namespace PC2D
         public bool exitFreeModeOnEnter;
         public bool exitFreeModeOnExit;
 
-        public void DoAction(PlatformerMotor2D motor, TriggerAction action, bool exitFreeMode)
+        public void DoAction(PC2DMotor motor, TriggerAction action, bool exitFreeMode)
         {
             switch (action)
             {
                 case TriggerAction.EnableRestrictedAreaIfFreemode:
-                    if (motor.motorState == PlatformerMotor2D.MotorState.FreedomState)
+                    if (motor.motorState == PC2DMotor.MotorState.FreedomState)
                     {
                         motor.EnableRestrictedArea();
                     }
@@ -34,7 +34,7 @@ namespace PC2D
                     motor.EnableRestrictedArea();
                     break;
                 case TriggerAction.DisableRestrictedAreaIfFreemode:
-                    if (motor.motorState == PlatformerMotor2D.MotorState.FreedomState)
+                    if (motor.motorState == PC2DMotor.MotorState.FreedomState)
                     {
                         motor.DisableRestrictedArea();
                     }
@@ -46,7 +46,7 @@ namespace PC2D
 
             if (exitFreeMode)
             {
-                if (motor.motorState == PlatformerMotor2D.MotorState.FreedomState)
+                if (motor.motorState == PC2DMotor.MotorState.FreedomState)
                 {
                     motor.FreedomStateExit();
                 }
@@ -57,7 +57,7 @@ namespace PC2D
         {
             base.OnTriggerEnter2D(o);
 
-            PlatformerMotor2D motor = o.GetComponent<PlatformerMotor2D>();
+			PC2DMotor motor = o.GetComponent<PC2DMotor>();
             if (motor)
             {
                 DoAction(motor, RestrictedAreaOnEnter, exitFreeModeOnEnter);
@@ -68,7 +68,7 @@ namespace PC2D
         {
             base.OnTriggerEnter2D(o);
 
-            PlatformerMotor2D motor = o.GetComponent<PlatformerMotor2D>();
+			PC2DMotor motor = o.GetComponent<PC2DMotor>();
 
             if (motor)
             {
@@ -80,7 +80,7 @@ namespace PC2D
         {
             base.OnTriggerExit2D(o);
 
-            PlatformerMotor2D motor = o.GetComponent<PlatformerMotor2D>();
+			PC2DMotor motor = o.GetComponent<PC2DMotor>();
 
             if (motor)
             {

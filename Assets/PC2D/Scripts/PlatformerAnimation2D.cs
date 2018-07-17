@@ -13,7 +13,7 @@ namespace PC2D
         public float jumpRotationSpeed;
         public GameObject visualChild;
 
-        private PlatformerMotor2D _motor;
+        private PC2DMotor _motor;
         private Animator _animator;
         private bool _isJumping;
         private bool _currentFacingLeft;
@@ -21,7 +21,7 @@ namespace PC2D
         // Use this for initialization
         void Start()
         {
-            _motor = GetComponent<PlatformerMotor2D>();
+            _motor = GetComponent<PC2DMotor>();
             _animator = visualChild.GetComponent<Animator>();
             _animator.Play("Idle");
 
@@ -31,10 +31,10 @@ namespace PC2D
         // Update is called once per frame
         void Update()
         {
-            if (_motor.motorState == PlatformerMotor2D.MotorState.Jumping ||
+            if (_motor.motorState == PC2DMotor.MotorState.Jumping ||
                 _isJumping &&
-                    (_motor.motorState == PlatformerMotor2D.MotorState.Falling ||
-                                 _motor.motorState == PlatformerMotor2D.MotorState.FallingFast))
+                    (_motor.motorState == PC2DMotor.MotorState.Falling ||
+                                 _motor.motorState == PC2DMotor.MotorState.FallingFast))
             {
                 _isJumping = true;
                 _animator.Play("Jump");
@@ -56,25 +56,25 @@ namespace PC2D
                 _isJumping = false;
                 visualChild.transform.rotation = Quaternion.identity;
 
-                if (_motor.motorState == PlatformerMotor2D.MotorState.Falling ||
-                                 _motor.motorState == PlatformerMotor2D.MotorState.FallingFast)
+                if (_motor.motorState == PC2DMotor.MotorState.Falling ||
+                                 _motor.motorState == PC2DMotor.MotorState.FallingFast)
                 {
                     _animator.Play("Fall");
                 }
-                else if (_motor.motorState == PlatformerMotor2D.MotorState.WallSliding ||
-                         _motor.motorState == PlatformerMotor2D.MotorState.WallSticking)
+                else if (_motor.motorState == PC2DMotor.MotorState.WallSliding ||
+                         _motor.motorState == PC2DMotor.MotorState.WallSticking)
                 {
                     _animator.Play("Cling");
                 }
-                else if (_motor.motorState == PlatformerMotor2D.MotorState.OnCorner)
+                else if (_motor.motorState == PC2DMotor.MotorState.OnCorner)
                 {
                     _animator.Play("On Corner");
                 }
-                else if (_motor.motorState == PlatformerMotor2D.MotorState.Slipping)
+                else if (_motor.motorState == PC2DMotor.MotorState.Slipping)
                 {
                     _animator.Play("Slip");
                 }
-                else if (_motor.motorState == PlatformerMotor2D.MotorState.Dashing)
+                else if (_motor.motorState == PC2DMotor.MotorState.Dashing)
                 {
                     _animator.Play("Dash");
                 }
@@ -94,9 +94,9 @@ namespace PC2D
             // Facing
             float valueCheck = _motor.normalizedXMovement;
 
-            if (_motor.motorState == PlatformerMotor2D.MotorState.Slipping ||
-                _motor.motorState == PlatformerMotor2D.MotorState.Dashing ||
-                _motor.motorState == PlatformerMotor2D.MotorState.Jumping)
+            if (_motor.motorState == PC2DMotor.MotorState.Slipping ||
+                _motor.motorState == PC2DMotor.MotorState.Dashing ||
+                _motor.motorState == PC2DMotor.MotorState.Jumping)
             {
                 valueCheck = _motor.velocity.x;
             }

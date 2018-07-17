@@ -12,11 +12,11 @@ namespace PC2D
         public Text ladderZone;
         public Text restrictedArea;
 
-        public PlatformerMotor2D motorToWatch;
+        public PC2DMotor motorToWatch;
 
-        private PlatformerMotor2D.MotorState _savedMotorState;
+        private PC2DMotor.MotorState _savedMotorState;
 
-        private PlatformerMotor2D.MotorState MotorState
+        private PC2DMotor.MotorState MotorState
         {
             set
             {
