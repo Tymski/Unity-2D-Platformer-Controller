@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38d7040d-513c-40e8-b2d9-d31b491c0fa1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Scripts/PlatformerAnimation2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Scripts/PlatformerAnimation2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/A-slope.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/A-slope.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Ninja.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Ninja.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0000_Wall-Cling.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0000_Wall-Cling.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0001_Falling.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0001_Falling.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0002_Jump.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0002_Jump.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0003_Sliding.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0003_Sliding.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0004_Run-1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0004_Run-1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0005_Run-2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0005_Run-2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0006_Run-3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0006_Run-3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0007_Run-4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0007_Run-4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0008_Run-5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0008_Run-5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0009_Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0009_Idle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0010_Ball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0010_Ball.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0011_Dash.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0011_Dash.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0012_On-Corner-.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0012_On-Corner-.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment2.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment2.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Square.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Square.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/V-Slope.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/V-Slope.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityAdsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/PC2D/Scripts/PlatformerMotor2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/PC2D/Scripts/PlatformerAnimation2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/PC2D/Example/DifferentSpeeds/DifferentSpeeds.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1tr79ZYGL47NeZaDxhyqIkdA6bT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38d7040d-513c-40e8-b2d9-d31b491c0fa1" name="Default Changelist" comment="" />
+      <created>1623515206084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623515206084</updated>
+      <workItem from="1623515219114" duration="575000" />
+      <workItem from="1624243242194" duration="2269000" />
+      <workItem from="1624586467483" duration="2650000" />
+      <workItem from="1625451240348" duration="2446000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
