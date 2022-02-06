@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{07DFF033-70FC-D7E0-D5EC-6FDB98B84EF7}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PC2D/Scripts/Globals.cs">
+    <Files>
+      <File FileName="Assets/PC2D/Scripts/CameraFollowObject.cs" Line="26" Column="176" />
+      <File FileName="Assets/PC2D/Example/Simple AI/SimpleAI.cs" />
+      <File FileName="Assets/PC2D/Scripts/PlayerController2D.cs" Line="117" Column="48" />
+      <File FileName="Assets/PC2D/Scripts/PlatformerAnimation2D.cs" />
+      <File FileName="Assets/PC2D/Scripts/PlatformerMotor2D.cs" Line="767" Column="10" />
+      <File FileName="Assets/PC2D/Example/Shadow/OpenSpriteReciveShadow.cs" Line="6" Column="36" />
+      <File FileName="Assets/PC2D/Example/Shadow/AddSpriteShadowEffect.cs" Line="9" Column="6" />
+      <File FileName="Assets/PC2D/Shaders/2DShadow.shader" Line="46" Column="25" />
+      <File FileName="Temp/Compiled-Custom-2DShadow.shader" Line="1" Column="1" />
+      <File FileName="Assets/PC2D/Shaders/NewSurfaceShader.shader" Line="1" Column="32" />
+      <File FileName="Assets/PC2D/Shaders/Diffuse2DTexture.shader" Line="1" Column="1" />
+      <File FileName="Assets/PC2D/Scripts/Globals.cs" Line="11" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e107bc0f-ab40-4055-ad7e-dddd27013dc6" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38d7040d-513c-40e8-b2d9-d31b491c0fa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Scripts/PlatformerAnimation2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Scripts/PlatformerAnimation2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/A-slope.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/A-slope.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Ninja.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Ninja.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0000_Wall-Cling.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0000_Wall-Cling.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0001_Falling.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0001_Falling.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0002_Jump.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0002_Jump.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0003_Sliding.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0003_Sliding.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0004_Run-1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0004_Run-1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0005_Run-2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0005_Run-2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0006_Run-3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0006_Run-3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0007_Run-4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0007_Run-4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0008_Run-5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0008_Run-5.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0009_Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0009_Idle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0010_Ball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0010_Ball.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0011_Dash.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0011_Dash.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0012_On-Corner-.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Player/Player_0012_On-Corner-.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment2.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/SlopedEnvironment2.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/Square.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/Square.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Sprites/V-Slope.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Sprites/V-Slope.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityAdsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity-2D-Platformer-Controller/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-2D-Platformer-Controller/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity-2D-Platformer-Controller/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-2D-Platformer-Controller/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity-2D-Platformer-Controller/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-2D-Platformer-Controller/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Animation/Basic Player Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Animation/Basic Player Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PC2D/Animation/Cling.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PC2D/Animation/Cling.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +18,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Spine Examples/Scripts/Getting Started Scripts/SpineFoxControl.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PC2D/Scripts/PlatformerMotor2D.cs" />
       <option value="$PROJECT_DIR$/Assets/PC2D/Scripts/PlatformerAnimation2D.cs" />
       <option value="$PROJECT_DIR$/Assets/PC2D/Example/DifferentSpeeds/DifferentSpeeds.cs" />
+      <option value="$PROJECT_DIR$/Assets/Spine Examples/Scripts/Getting Started Scripts/SpineFoxControl.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tr79ZYGL47NeZaDxhyqIkdA6bT" />
@@ -85,7 +72,10 @@
       <workItem from="1623515219114" duration="575000" />
       <workItem from="1624243242194" duration="2269000" />
       <workItem from="1624586467483" duration="2650000" />
-      <workItem from="1625451240348" duration="2446000" />
+      <workItem from="1625451240348" duration="3849000" />
+      <workItem from="1626400838590" duration="393000" />
+      <workItem from="1628948840341" duration="555000" />
+      <workItem from="1629725674072" duration="435000" />
     </task>
     <servers />
   </component>

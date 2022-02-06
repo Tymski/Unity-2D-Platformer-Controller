@@ -8,6 +8,11 @@ public class PlatformerMotor2D : MonoBehaviour
     #region Public
 
     /// <summary>
+    /// 耐力值 ,角色的每项行动都会消耗耐力值
+    /// </summary>
+    public float Stamina = 100f;
+
+    /// <summary>
     /// The static environment check mask. This should only be environment that doesn't move.
     /// </summary>
     public LayerMask staticEnvLayerMask;
@@ -225,6 +230,28 @@ public class PlatformerMotor2D : MonoBehaviour
     /// The speed that the motor will slide down the wall.
     /// </summary>
     public float wallSlideSpeed = 5;
+
+    /// <summary>
+    /// If wall Climbs are allowed. A wall climb is when a motor climb a wall. This will only take in effect
+    /// once the stick is over.
+    /// </summary>
+    public bool enableWallClimbs = true;
+
+    /// <summary>
+    /// The speed that the motor will climb the wall.
+    /// </summary>
+    public float wallClambSpeed = 2;
+
+    /// <summary>
+    /// If wall Crawl are allowed. A wall Crawl is when a motor Crawl a wall. This will only take in effect
+    /// once the stick is over.
+    /// </summary>
+    public bool enableWallCrawls = true;
+
+    /// <summary>
+    /// The speed that the motor will Crawl the wall.
+    /// </summary>
+    public float wallCrawlSpeed = 1;
 
     /// <summary>
     /// The time, in seconds, to get to wall slide speed.
@@ -1736,8 +1763,8 @@ public class PlatformerMotor2D : MonoBehaviour
             minDistanceFromEnv);
 
         Collider2D col = Physics2D.OverlapArea(
-            checkBounds.min, 
-            checkBounds.max, 
+            checkBounds.min,
+            checkBounds.max,
             _collisionMask);
 
         if (col != null)
@@ -1966,7 +1993,7 @@ public class PlatformerMotor2D : MonoBehaviour
         {
             //Debug.Log(IsMovingPlatform(_collidersUpAgainst[DIRECTION_DOWN].gameObject));
         }
-        
+
         if (HasFlag(CollidedSurface.Ground) && IsMovingPlatform(_collidersUpAgainst[DIRECTION_DOWN].gameObject))
         {
             _movingPlatformState.platform = _collidersUpAgainst[DIRECTION_DOWN].GetComponent<MovingPlatformMotor2D>();
